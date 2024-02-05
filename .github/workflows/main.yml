@@ -3,7 +3,7 @@ name: Sync With Forked Repo
 on:
   workflow_dispatch: # allow manual run
   schedule:
-    - cron: '0 0 * * *' # every sunday at midnight
+    - cron: '0 0 * * *' # every night
 
 jobs:
   syncing_with_forked_repo:
